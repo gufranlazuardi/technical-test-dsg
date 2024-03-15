@@ -147,7 +147,55 @@ const Home = () => {
                               <button className="text-sm">Edit</button>
                             </DialogTrigger>
                             <DialogContent>
-                              <p>test</p>
+                              <DialogHeader className="text-xl font-semibold">
+                                Edit items
+                              </DialogHeader>
+                              <Separator />
+                              <div className="flex flex-col text-nowrap">
+                                <div className="flex gap-2">
+                                  <p>Merk :</p>
+                                  <input
+                                    className="w-full placeholder:text-sm placeholder:italic"
+                                    placeholder="Merk..."
+                                  ></input>
+                                </div>
+
+                                <div className="flex gap-2">
+                                  <p>Jenis :</p>
+                                  <input
+                                    className="w-full placeholder:text-sm placeholder:italic"
+                                    placeholder="Jenis..."
+                                  ></input>
+                                </div>
+
+                                <div className="flex gap-2">
+                                  <p>Jumlah stok :</p>
+                                  <input
+                                    className="w-full placeholder:text-sm placeholder:italic"
+                                    placeholder="Jumlah stok..."
+                                  ></input>
+                                </div>
+
+                                <div className="flex gap-2">
+                                  <p>Harga :</p>
+                                  <input
+                                    className="w-full placeholder:text-sm placeholder:italic"
+                                    placeholder="Harga..."
+                                  ></input>
+                                </div>
+
+                                <div className="flex gap-2">
+                                  <p>Keterangan :</p>
+                                  <input
+                                    className="w-full placeholder:text-sm placeholder:italic"
+                                    placeholder="Keterangan..."
+                                  ></input>
+                                </div>
+                              </div>
+                              <div className="flex gap-2">
+                                <Button variant={"destructive"}>Cancel</Button>
+                                <Button>Save</Button>
+                              </div>
                             </DialogContent>
                           </Dialog>
                           <Dialog>
