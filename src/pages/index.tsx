@@ -156,7 +156,7 @@ const Home = () => {
                                   <p>Merk :</p>
                                   <input
                                     className="w-full placeholder:text-sm placeholder:italic"
-                                    placeholder="Merk..."
+                                    placeholder="Toyota"
                                   ></input>
                                 </div>
 
@@ -164,7 +164,7 @@ const Home = () => {
                                   <p>Jenis :</p>
                                   <input
                                     className="w-full placeholder:text-sm placeholder:italic"
-                                    placeholder="Jenis..."
+                                    placeholder="Yaris"
                                   ></input>
                                 </div>
 
@@ -172,7 +172,7 @@ const Home = () => {
                                   <p>Jumlah stok :</p>
                                   <input
                                     className="w-full placeholder:text-sm placeholder:italic"
-                                    placeholder="Jumlah stok..."
+                                    placeholder="100"
                                   ></input>
                                 </div>
 
@@ -180,7 +180,7 @@ const Home = () => {
                                   <p>Harga :</p>
                                   <input
                                     className="w-full placeholder:text-sm placeholder:italic"
-                                    placeholder="Harga..."
+                                    placeholder="Rp 100.000.000"
                                   ></input>
                                 </div>
 
@@ -188,7 +188,7 @@ const Home = () => {
                                   <p>Keterangan :</p>
                                   <input
                                     className="w-full placeholder:text-sm placeholder:italic"
-                                    placeholder="Keterangan..."
+                                    placeholder="Available"
                                   ></input>
                                 </div>
                               </div>
